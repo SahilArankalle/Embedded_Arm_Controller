@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Sahil\Desktop\programming\ARM\Semaphore\semaphore.uvproj
+Project File Date:  05/15/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(1): error:  #5: cannot open source input file "config.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "serial.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(9): error:  #20: identifier "OS_STK" is undefined
+main.c(10): error:  #20: identifier "OS_STK" is undefined
+main.c(12): error:  #20: identifier "OS_EVENT" is undefined
+main.c(19): warning:  #223-D: function "TargetInit" declared implicitly
+main.c(20): warning:  #223-D: function "init_serial" declared implicitly
+main.c(21): error:  #20: identifier "IO1DIR" is undefined
+main.c(22): warning:  #223-D: function "OSInit" declared implicitly
+main.c(23): warning:  #223-D: function "OSSemCreate" declared implicitly
+main.c(23): error:  #513: a value of type "int" cannot be assigned to an entity of type "<error-type> *"
+main.c(24): warning:  #223-D: function "OSTaskCreate" declared implicitly
+main.c(26): warning:  #223-D: function "OSStart" declared implicitly
+main.c(36): error:  #20: identifier "uint8" is undefined
+main.c(39): warning:  #223-D: function "printf" declared implicitly
+main.c(40): warning:  #223-D: function "OSSemPend" declared implicitly
+main.c(42): error:  #20: identifier "IO1CLR" is undefined
+main.c(45): error:  #20: identifier "IO1SET" is undefined
+main.c(46): warning:  #223-D: function "OSTimeDly" declared implicitly
+main.c(50): warning:  #223-D: function "OSSemPost" declared implicitly
+main.c(52): warning:  #223-D: function "OSTimeDly" declared implicitly
+main.c(62): error:  #20: identifier "uint8" is undefined
+main.c(65): warning:  #223-D: function "printf" declared implicitly
+main.c(66): warning:  #223-D: function "OSSemPend" declared implicitly
+main.c(68): error:  #20: identifier "IO1CLR" is undefined
+main.c(71): error:  #20: identifier "IO1SET" is undefined
+main.c(72): warning:  #223-D: function "OSTimeDly" declared implicitly
+main.c(76): warning:  #223-D: function "OSSemPost" declared implicitly
+main.c(84): warning:  #1-D: last line of file ends without a newline
+Target not created

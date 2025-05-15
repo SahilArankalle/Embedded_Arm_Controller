@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Sahil\Desktop\programming\ARM\Temprature Sensor\temperaturesensor.uvproj
+Project File Date:  05/15/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(174): warning:  #1-D: last line of file ends without a newline
+main.c(122): warning:  #177-D: variable "Thousands" was declared but never referenced
+linking...
+Program Size: Code=5492 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temperaturesensor.axf" - 0 Error(s), 2 Warning(s).
